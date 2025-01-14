@@ -1,9 +1,10 @@
 import MyComponent from "./MyComponent.jsx";
-
 function App() {
-  <>
-    <MyComponent firstName="kåre" age={12} />
-  </>;
+  return (
+    <>
+      <MyComponent name="endre" />
+    </>
+  );
 }
 
 export default App;
