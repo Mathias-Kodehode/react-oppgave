@@ -1,0 +1,20 @@
+body {
+  background-image: url(./images/restaurant.jpg);
+  background-repeat: no-repeat;
+  background-position: 0%;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: grid;
+  background-color: rgba(44, 44, 44, 0.485);
+  gap: 50px;
+  padding: 10px;
+  grid-template-columns: 300px 300px 300px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
